@@ -3,7 +3,7 @@
 	"description" : "This mod repair CrimeSpree crash on join and loss of it when the game crash",
 	"author" : "Luzgardeann",
 	"contact" : "id/Luzgardeann",
-	"version" : "0.01",
+	"version" : "0.02",
 	"priority" : 500,
 	"blt_version" : 2,
 	"color" : "0 255 0",
