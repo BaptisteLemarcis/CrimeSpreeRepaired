@@ -1,0 +1,20 @@
+{
+	"name" : "CrimeSpreeRepair",
+	"description" : "This mod repair CrimeSpree crash on join and loss of it when the game crash",
+	"author" : "Luzgardeann",
+	"contact" : "id/Luzgardeann",
+	"version" : "0.01",
+	"priority" : 500,
+	"blt_version" : 2,
+	"color" : "0 255 0",
+	"hooks" : [
+		{   
+            "hook_id": "lib/managers/menu/crimespreedetailsmenucomponent",
+            "script_path": "Core.lua"
+        },
+		{   
+            "hook_id": "lib/tweak_data/crimespreetweakdata",
+            "script_path": "Core.lua"
+        }
+	]
+}
